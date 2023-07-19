@@ -15,4 +15,7 @@ sudo npm install -g yarn pm2
 
 # setup project
 yarn
+pm2 start "yarn start-ts" --name "agent-viewer"
+sudo pm2 startup
+pm2 save
 ```
