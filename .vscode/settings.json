@@ -1,0 +1,19 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "[sass]": {
+    "editor.tabSize": 4,
+  },
+  "[html]": {
+    "editor.tabSize": 4,
+  },
+  "eslint.validate": [
+    "javascript"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+}
